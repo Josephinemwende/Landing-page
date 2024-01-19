@@ -1,0 +1,215 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+header h3{
+    color: white;
+}
+.banner{
+    background-image: url(Images/Image1.jpg);
+    color:white;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner a{
+    color: white;
+    font-size: 18px;
+}
+.overlay{
+    background-color: rgba(70, 70, 161, 0.5);
+    height: 800px;
+    width: 100%;
+    position: absolute;
+}
+header ul{
+    padding: 30px;
+    margin-left: 20px;
+}
+header li{
+    display: inline;
+    padding: 30px;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+}
+header li a:hover{
+    color: blue;
+}
+.description{
+    text-align: center;
+   margin-top: 200px;
+}
+.description p{
+    text-align: justify;
+    margin: 0 270px;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 35px;
+    
+}
+.description input{
+    margin-top: 40px;
+    width: 30%;
+    height: 20px;
+}
+.about{
+  margin: 20px;
+ 
+}
+
+.About-us{
+    display:flex;
+    justify-content: space-around;
+
+ 
+}
+.About-us div{
+    padding: 10px;
+}
+.first-paragraph{
+    margin-top: 30px;
+}
+
+
+.line-container{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+.line{
+    display: inline-block;
+    width: 300px;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+.line-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 10px;
+
+}
+.Choose{
+    margin: 20px;
+    
+}
+
+.ChooseUs{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.ChooseUs span{
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+.ChooseUs div{
+    padding: 10px;
+}
+#Services{
+    margin: 20px;
+
+
+   
+}
+.Services h3{
+    text-align: center;
+}
+.Services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Services div{
+    box-shadow: 10px 10px 10px 10px rgba(70, 70, 161, 0.5);
+    text-align: justify;
+    padding: 10px;
+    width: 100%;
+    margin: 0 20px;
+}
+.Services input{
+    margin-left: 100px;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+}
+.inputs{
+    margin-top: 70px;
+    margin-left: 500px;
+   
+}
+.banner input[type="text"]{
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgba(18, 18, 219, 0.5);
+    
+}
+input[type="button"]{
+    height: 35px;
+    width: 100px;
+    background-color: rgba(10, 10, 243, 0.5);
+    color: white;
+}
+.banner input[placeholder="Enter a valid email address"]
+{
+    text-align: justify;
+
+}
+footer{
+    /*background-color: rgba(70, 70, 161, 0.5);*/
+    
+}
+.Reach-us{
+    display: flex;
+    justify-content: space-around;
+}
+.first-container{
+    display: block;
+}
+form input{
+   display: block;
+   padding: 10px;
+   margin-bottom: 15px;
+   width: 100%;
+  
+}
+.second-container a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+textarea{
+    height: 50px;
+    margin-bottom: 5px;
+}
+svg{
+    padding: 10px;
+    color: blue;
+}
+@media only screen {
+    
+}
